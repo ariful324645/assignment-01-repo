@@ -1,0 +1,116 @@
+.container0{
+    margin:0px 150px;
+    display:flex;
+    height: 600px;
+    width:1320px;
+    background-image: url(resources/Banner\ Image.png);
+    background-color: #000000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.banar{
+ color:black;
+
+}
+.Happy{
+color:black;
+font-size: xx-large;
+}
+
+body{
+    background-color: beige;
+}
+.discount-offer{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+}
+.discount-offer img{
+    height:400px;
+    width:600px;
+}
+.discount-offer h1{
+    color:red;
+    font-size:xx-large;
+    font-weight: bolder;
+}
+.welcome{
+    margin:0px 150px;
+    margin-top: 100px;
+    height: 600px;
+    width:1320px;
+    display:flex;
+    background-image: url(resources/Vectorrr.png);
+    background-color: #696969	(105,105,105);
+    text-align: left;
+align-items: center;
+}
+.container h1{
+
+color:white;
+font-size: xx-large;
+}
+.container p{
+    color:gainsboro;
+    
+}
+.container{
+    padding:0px 50px;
+} 
+.place{
+    margin:0px 150px;
+    margin-top: 100px;
+    height: 300px;
+    width:1320px;
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    
+}
+    
+
+.container1{
+    padding:80px 0px;
+}
+.h3 .span{
+    color:red;
+}
+.contain-radious{
+    margin:0px 150px;
+    height: 600px;
+    width:1320px;
+    margin-top: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:beige;
+}
+.text h4{
+    color:red;
+}
+.img img{
+    height: 300px;
+    width:300px;
+    border:5px solid red;
+    padding:40px;
+    border-radius: 50%;
+}
+.contain-radious div{
+    flex:1;
+}
+.main{
+    margin:0px 150px;
+    height: 600px;
+    width:1320px;
+    margin-top: 100px;
+}
+.awesome-portfolio h3{
+    color:red;
+
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:5px;
+}
