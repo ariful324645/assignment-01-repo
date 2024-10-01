@@ -99,18 +99,72 @@ font-size: xx-large;
 .contain-radious div{
     flex:1;
 }
-.main{
+
+
+.function-container{
     margin:0px 150px;
-    height: 600px;
+    height: 740px;
     width:1320px;
     margin-top: 100px;
+    
+  
 }
-.awesome-portfolio h3{
-    color:red;
+
+
+.function{
+    text-align: center;
+    align-items: center;
+
+
 
 }
-.grid{
+.h0 .span1{
+    color:red;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.img-icon{
+    display:flex;
+    justify-content: space-evenly;
+}
+.img1{
+    background-image: url(resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    
+}
+.awesome-profile{
+    margin:0px 150px;
+    height: 1000px;
+    width:1320px;
+    margin-top: 100px;
+
+
+}
+.picture-grid{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    gap:5px;
+    gap:10px;
+}
+
+.awesome h4{
+    color:red;
+}
+.form{
+    margin:0px 150px;
+    height: 400px;
+    width:1320px;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding:40px 0px;
+    background-color: antiquewhite;
+}
+.email input{
+    padding:20px 90px;
+    border-radius: 90px;
 }
