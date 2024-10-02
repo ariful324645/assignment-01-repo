@@ -62,18 +62,38 @@ body {
   display: flex;
   background-image: url(resources/Vectorrr.png);
 
+  position: relative;
+}
+.empty-div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
   text-align: left;
+  display: flex;
   align-items: center;
+  justify-content:left;
+
+  
 }
-.container h1 {
+.container{
+  padding:0px 30px;
+  
+}
+.container h2
+{
+  font-size: 40px;
   color: white;
-  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
-.container p {
-  color: gainsboro;
-}
-.container {
-  padding: 0px 50px;
+.container p{
+  color: rgb(220, 210, 210);
+width:900px;
+
 }
 .place {
   margin: 0px auto;
