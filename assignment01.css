@@ -1,170 +1,290 @@
-.container0{
-    margin:0px 150px;
-    display:flex;
-    height: 600px;
-    width:1320px;
-    background-image: url(resources/Banner\ Image.png);
-    background-color: #000000;
-    text-align: center;
-    align-items: center;
+.container0 {
+  /* margin:0px auto; */
+  margin: 0 auto;
+  display: flex;
+  height: 600px;
+  width: 1320px;
+  background-image: url(resources/Banner\ Image.png);
+
+  position: relative;
+}
+
+.banner h1 {
+  font-size: 40px;
+  color: white;
+}
+.banner h3 {
+  color: rgb(220, 210, 210);
+  font-size: 20px;
+}
+.banner1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .banner{
+    display: flex ;
     justify-content: center;
-}
-.banar{
- color:black;
-
-}
-.Happy{
-color:black;
-font-size: xx-large;
-}
-
-body{
-    background-color: beige;
-}
-.discount-offer{
-    margin-top: 100px;
-    text-align: center;
     align-items: center;
-}
-.discount-offer img{
-    height:400px;
-    width:600px;
-}
-.discount-offer h1{
-    color:red;
-    font-size:xx-large;
-    font-weight: bolder;
-}
-.welcome{
-    margin:0px 150px;
-    margin-top: 100px;
-    height: 600px;
-    width:1320px;
-    display:flex;
-    background-image: url(resources/Vectorrr.png);
-    background-color: #696969	(105,105,105);
-    text-align: left;
-align-items: center;
-}
-.container h1{
+} */
 
-color:white;
-font-size: xx-large;
+body {
+  background-color: beige;
 }
-.container p{
-    color:gainsboro;
-    
+.discount-offer {
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
 }
-.container{
-    padding:0px 50px;
-} 
-.place{
-    margin:0px 150px;
-    margin-top: 100px;
-    height: 300px;
-    width:1320px;
-    background-color: antiquewhite;
-    text-align: center;
-    align-items: center;
-    
+.discount-offer img {
+  height: 400px;
+  width: 600px;
 }
-    
+.discount-offer h1 {
+  color: red;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.welcome {
+  margin: 0px auto;
+  margin-top: 100px;
+  height: 600px;
+  width: 1320px;
+  display: flex;
+  background-image: url(resources/Vectorrr.png);
 
-.container1{
-    padding:80px 0px;
+  text-align: left;
+  align-items: center;
 }
-.h3 .span{
-    color:red;
+.container h1 {
+  color: white;
+  font-size: xx-large;
 }
-.contain-radious{
-    margin:0px 150px;
-    height: 600px;
-    width:1320px;
-    margin-top: 100px;
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color:beige;
+.container p {
+  color: gainsboro;
 }
-.text h4{
-    color:red;
+.container {
+  padding: 0px 50px;
 }
-.img img{
-    height: 300px;
-    width:300px;
-    border:5px solid red;
-    padding:40px;
-    border-radius: 50%;
-}
-.contain-radious div{
-    flex:1;
+.place {
+  margin: 0px auto;
+  margin-top: 100px;
+  height: 300px;
+  width: 1320px;
+  background-color: antiquewhite;
+  text-align: center;
+  align-items: center;
 }
 
-
-.function-container{
-    margin:0px 150px;
-    height: 740px;
-    width:1320px;
-    margin-top: 100px;
-    
-  
+.container1 {
+  padding: 80px 0px;
+}
+.h3 .span {
+  color: red;
+}
+.contain-radious {
+  margin: 0px auto;
+  height: 600px;
+  width: 1320px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: beige;
+}
+.text h4 {
+  color: red;
+}
+.img img {
+  height: 300px;
+  width: 300px;
+  border: 5px solid red;
+  padding: 40px;
+  border-radius: 50%;
+}
+.contain-radious div {
+  flex: 1;
 }
 
-
-.function{
-    text-align: center;
-    align-items: center;
-
-
-
-}
-.h0 .span1{
-    color:red;
-    font-size: xx-large;
-    font-weight: bolder;
-}
-.img-icon{
-    display:flex;
-    justify-content: space-evenly;
-}
-.img1{
-    background-image: url(resources/Rectangle\ 1.png);
-    background-repeat: no-repeat;
-}
-.img2{
-    background-image: url(resources/Rectangle\ 2.png);
-    background-repeat: no-repeat;
-    
-}
-.awesome-profile{
-    margin:0px 150px;
-    height: 1000px;
-    width:1320px;
-    margin-top: 100px;
-
-
-}
-.picture-grid{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    gap:10px;
+.function-container {
+  margin: 0px auto;
+  height: 100%;
+  width: 1320px;
+  margin-top: 100px;
+  /* overflow: hidden; */
 }
 
-.awesome h4{
-    color:red;
+.function {
+  text-align: center;
+  align-items: center;
 }
-.form{
-    margin:0px 150px;
-    height: 400px;
-    width:1320px;
-    margin-top: 100px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    padding:40px 0px;
-    background-color: antiquewhite;
+
+.holidays-paragraph {
+  width: 70%;
+  padding: 10px 0px 40px 0px;
+  margin: 0 auto;
 }
-.email input{
-    padding:20px 90px;
-    border-radius: 90px;
+.h0 .span1 {
+  color: red;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+/* .img-icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+.img1 {
+  background-image: url(resources/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+}
+.img2 {
+  background-image: url(resources/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+} */
+
+.holidays-images-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  position: relative;
+}
+.holidays-images-container .left-image {
+  width: 75%;
+}
+.holidays-images-container .right-image {
+  width: 25%;
+  z-index: -200;
+}
+.holidays-images-container .right-image,
+.holidays-images-container .right-image img {
+  width: 100%;
+}
+
+.bottom-red-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+}
+
+.centered-image {
+  position: absolute;
+  top: 8%;
+  right: 28%;
+}
+
+/* holidays images css ends here */
+
+.awesome-profile {
+  margin: 0px auto;
+  height: 1000px;
+  width: 1320px;
+  margin-top: 100px;
+}
+.picture-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.awesome h4 {
+  color: red;
+}
+.form {
+  margin: 0px auto;
+  height: 400px;
+  width: 1320px;
+  margin-top: 100px;
+  text-align: center;
+  /* align-items: center;
+  justify-content: center; */
+  padding: 40px 0px;
+  background-color: antiquewhite;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.email input {
+  /* padding: 20px 90px; */
+  border-radius: 30px 0px 0px 30px;
+  border: none;
+  padding: 15px;
+  padding-right: 60px;
+  padding-left: 25px;
+  background-color: rgb(245, 245, 234);
+}
+
+.email .button {
+  padding: 15px 50px;
+  border-radius: 0px 30px 30px 0px;
+  border: none;
+  background-color: red;
+  color: white;
+}
+
+.footer {
+  margin: 0px auto;
+  height: 400px;
+  width: 1320px;
+  margin-top: 100px;
+  background-color: #000000;
+  color: white;
+  padding: 50px 0px;
+}
+.container-text {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.website {
+  display: flex;
+  gap: 5px;
+}
+.call {
+  display: flex;
+  gap: 5px;
+}
+.website-control {
+  display: block;
+}
+.container-text {
+  color: white;
+  /* padding-bottom: 40px; */
+  padding: 10px 60px 40px 60px;
+}
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 40px 0px; */
+  padding: 40px 0px;
+  gap: 30px;
+}
+
+.last-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 60px;
+  /* margin-top: 80px; */
+}
+.container-text,
+.last-text,
+.social-icon {
+  color: white;
+}
+.footer hr {
+  width: 90%;
 }
